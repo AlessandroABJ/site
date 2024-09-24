@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    padding-top: 60px;
+}
+
+
+.uniube-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFF;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.uniube-link a {
+    display: inline-block;
+}
+
+.uniube-link img {
+    height: 40px;
+    width: auto;
+    max-width: 80%;
+    vertical-align: middle;
+}
+
+header {
+    background-color: #4a4a4a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2, h3, h4 {
+    color: #4a4a4a;
+}
+ul {
+    padding-left: 20px;
+}
+footer {
+    background-color: rgba(51, 51, 51, 0.5); 
+    color: #fff;
+    text-align: center;
+    padding: 0.25rem;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(1px); 
+}
+.artist-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.artist-image {
+    text-align: center;
+    margin: 10px;
+}
+.artist-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
